@@ -5,7 +5,7 @@ import Footer from './Footer';
 import Main from './Main';
 
 
-const Home = () => {
+function Home () {
     return (
         <div class="container">
           <div class="header">
