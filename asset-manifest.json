@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/web-site-nickingnova/static/css/main.16ff7469.css",
-    "main.js": "/web-site-nickingnova/static/js/main.ab6dda89.js",
+    "main.js": "/web-site-nickingnova/static/js/main.ac722fa4.js",
     "static/js/787.622e5743.chunk.js": "/web-site-nickingnova/static/js/787.622e5743.chunk.js",
     "static/media/Roboto-Regular.ttf": "/web-site-nickingnova/static/media/Roboto-Regular.5c913da9f0f64969db0d.ttf",
     "static/media/build.jpg": "/web-site-nickingnova/static/media/build.8779a236a60023a8db67.jpg",
@@ -13,11 +13,11 @@
     "static/media/negativo.png": "/web-site-nickingnova/static/media/negativo.694304a5240b1dfd38a9.png",
     "index.html": "/web-site-nickingnova/index.html",
     "main.16ff7469.css.map": "/web-site-nickingnova/static/css/main.16ff7469.css.map",
-    "main.ab6dda89.js.map": "/web-site-nickingnova/static/js/main.ab6dda89.js.map",
+    "main.ac722fa4.js.map": "/web-site-nickingnova/static/js/main.ac722fa4.js.map",
     "787.622e5743.chunk.js.map": "/web-site-nickingnova/static/js/787.622e5743.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.16ff7469.css",
-    "static/js/main.ab6dda89.js"
+    "static/js/main.ac722fa4.js"
   ]
 }
