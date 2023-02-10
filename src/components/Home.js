@@ -1,23 +1,18 @@
 import React from 'react';
 import "./styles/Home.css"
-import Header from './Header';
-import Footer from './Footer';
-import Main from './Main';
 
 
 function Home () {
     return (
-        <div class="container">
-          <div class="header">
-            <Header/>
+      <>
+        <div className="box-main">
+          <div className="text-container">
+            <div className="title">Lorem ipsum</div>
+            <div className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quam quas ad ducimus eius, distinctio autem quasi, dicta laborum inventore aliquam earum molestiae pariatur vel temporibus iure ea porro ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia reiciendis nisi quibusdam maiores, ut vitae, omnis id eligendi error eos impedit quod quo asperiores sint incidunt aspernatur magnam dolor placeat!</div>
           </div>
-          <main class="main-content">
-            <Main/>
-          </main>
-          <footer class="footer">
-            <Footer/>
-          </footer>
+          <div className="images-container"></div>
         </div>
+      </>
     );
 }
 

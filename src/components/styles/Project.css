@@ -1,0 +1,44 @@
+.reel{
+  border-radius:20px;
+  /* border: 2px solid blue; */
+  height: 500px;
+  width: 100%;
+  display: grid;
+  grid-template-columns:repeat(auto-fill,minmax(500px,1fr));
+  grid-gap:3rem;
+  margin: 2rem 5rem;
+}
+
+.project{
+  border-radius:50px;
+  min-height: 300px;
+  max-width: 500px;
+  /* border: 2px solid blue; */
+  list-style: none;
+  /* width: 500px; */
+}
+
+.project:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.p1{
+  background-image: url('../images/calculator.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.p2 , .p3{
+  background-image: url('../images/build.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+}
+
+.title-project{
+  padding: 1rem;
+  color: white;
+  font-family: "Bold Font", sans-serif;
+  font-size: 2rem;
+}

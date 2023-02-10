@@ -17,6 +17,57 @@
   box-sizing: border-box;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.header {
+  height: 20%;
+  background: #0599B9;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-size-adjust: 100%;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  background: #0599B9;
+  text-size-adjust: 100%;
+  background-image: url('./components/images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.footer {
+  height: 10%;
+  background-color: #022B35; 
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-size-adjust: 100%;
+  padding: 30px;
+
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 20%;
+  }
+  .footer {
+    height: 20%;
+  }
+}
+
 
 @keyframes App-logo-spin {
   from {
