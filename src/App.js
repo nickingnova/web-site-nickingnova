@@ -18,8 +18,8 @@ function App() {
               <Header/>
             </div>
             <main class="main-content">
-              <Route path="/web-site-nickingnova/" component={Home} />
-              <Route path="/projects" component={Projects} />
+              <Route path="/web-site-nickingnova/home" component={Home} />
+              <Route path="/web-site-nickingnova/projects" component={Projects} />
               {/*<Route path="/web-site-nickingnova/contact" component={Contact} /> */}
             </main>
             <footer class="footer">

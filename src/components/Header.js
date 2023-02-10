@@ -10,8 +10,8 @@ const Header = () => {
         <img src={logoNegative} alt="logotype"></img>
       </div>
       <div className="menu">
-        <Link className="menu-list" to="/web-site-nickingnova/" target="_parent">Home</Link>
-        <Link className="menu-list" to="/projects" target="_parent">Projects</Link>
+        <Link className="menu-list" to="/web-site-nickingnova/home" target="_parent">Home</Link>
+        <Link className="menu-list" to="/web-site-nickingnova/projects" target="_parent">Projects</Link>
         <Link className="menu-list" to="/web-site-nickingnova/contact" target="_parent">Contact</Link>
       </div>
     </>
